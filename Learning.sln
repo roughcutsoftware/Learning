@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Python", "Python", "{A8E322
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "LearningPandas", "Python\LearningPandas\LearningPandas.pyproj", "{D68AF237-B97E-40F8-8FEE-28A1064BCAB5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RustLang", "RustLang", "{E7982428-CB17-47CB-96E9-674C4AC95FB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rust.Workbench.Cmd", "RustLang\Rust.Workbench.Cmd\Rust.Workbench.Cmd.csproj", "{24204E00-4529-431F-BFA3-197DBB4C88C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,12 +19,17 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D68AF237-B97E-40F8-8FEE-28A1064BCAB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D68AF237-B97E-40F8-8FEE-28A1064BCAB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24204E00-4529-431F-BFA3-197DBB4C88C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24204E00-4529-431F-BFA3-197DBB4C88C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24204E00-4529-431F-BFA3-197DBB4C88C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24204E00-4529-431F-BFA3-197DBB4C88C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D68AF237-B97E-40F8-8FEE-28A1064BCAB5} = {A8E32216-C1A4-4669-964C-D803641BBA7E}
+		{24204E00-4529-431F-BFA3-197DBB4C88C0} = {E7982428-CB17-47CB-96E9-674C4AC95FB5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6CC8BE4E-58C2-48F3-846C-0719C124FBE4}
